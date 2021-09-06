@@ -1,0 +1,47 @@
+body {
+  font-family: Poppins;
+  background-color: rgb(255, 230, 199);
+}
+
+#container {
+  background-color: rgb(96, 79, 143);
+  margin: auto;
+  margin-top: 6em;
+  border: none;
+  padding: 2em;
+  font-size: 1.5rem;
+  text-align: center;
+  width: 70%;
+}
+
+input[type="number"],
+select {
+  padding: 0.4em;
+  border: 1px solid rgb(228, 228, 228);
+  background-color: white;
+  margin-top: 1.5em;
+}
+
+input[type="submit"] {
+  background-color: black;
+  color: white;
+  padding: 0.8em 2.5em;
+  border: none;
+  cursor: pointer;
+  margin-top: 1.5em;
+}
+
+input[type="submit"]:hover {
+  background-color: rgb(36, 36, 36);
+}
+
+@media (max-width: 340px) {
+  #container {
+    font-size: 1.2rem;
+  }
+  input[type="number"],
+  select {
+    padding: 0.2em;
+    padding: 0.6em 0.4em;
+  }
+}
